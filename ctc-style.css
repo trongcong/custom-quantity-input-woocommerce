@@ -1,0 +1,65 @@
+/*
+CTC Separate Stylesheet
+Updated: 2021-10-20 02:52:07
+*/
+
+.ip-wrap {
+    align-items: center;
+    position: relative;
+    display: inline-flex;
+}
+.ip-wrap .inner-wrap {
+    border-radius: 6px;
+    overflow: hidden;
+    border: 1px solid #eee;
+    margin-left: 10px;
+    align-items: center;
+    display: inline-flex;
+}
+.ip-wrap .inner-wrap input {
+    width: 70px;
+    height: 48px;
+    display: block;
+    margin: 0;
+    padding: 6px;
+    text-align: center;
+    border: none;
+    border-right: 1px solid #eee;
+    box-shadow: none;
+    background: white;
+}
+.ip-wrap .inner-wrap input:focus {
+    outline: 0;
+}
+.ip-wrap .inner-wrap .input-append {
+    background: whitesmoke;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+}
+.ip-wrap .quantity-nav {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.ip-wrap .quantity-nav .quantity-button {
+    position: relative;
+    cursor: pointer;
+    color: #333;
+    user-select: none;
+    height: 48px;
+    width: 48px;
+    border: 1px solid #eee;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4px;
+    font-size: 20px;
+    transition: 0.3s;
+    background: transparent;
+}
+.ip-wrap .quantity-nav .quantity-button:hover {
+    background: #eee;
+}
